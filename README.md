@@ -1,71 +1,71 @@
-*Psst  looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
 ---
 
 # svelte app
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+Ini adalah sebuah proyek riset yang menggunakan template [Svelte](https://svelte.dev) dan disini kita akan membuaut sebuah apps dengan svelte. 
+jika anda ingin melihat live demo nya anda bisa mengakses link berikut https://github.com/sveltejs/template.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
+Untuk membuat sebuah proyek baru berdasarkan templat anda bisa menggunakan template berikut [degit](https://github.com/Rich-Harris/degit), dan untuk perintah berikut :
 ```bash
 npx degit sveltejs/template svelte-app
 cd svelte-app
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
+*Catatan : Kamu akan membutuhkan [Node.js](https://nodejs.org) yang sudah terinstall*
 
 
-## Get started
+## Mari Mulai
 
-Install the dependencies...
+Instal terlebih dahulu dependencies nya, masukan perintah berikut :
 
 ```bash
 cd svelte-app
 npm install
 ```
 
-...then start [Rollup](https://rollupjs.org):
+Lalu jalankan [Rollup](https://rollupjs.org), dengan memasukan perintah berikut:
 
 ```bash
 npm run dev
 ```
 
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Navigasikan ke link [localhost:5000](http://localhost:5000). Anda akan melihat svelte berjalan. Ubah file komponen di `src`, Lalu simpan, dan lalu perbarui browser anda untuk melihat perubahan.
 
-By default, the server will only respond to requests from localhost. To allow connections from other computers, edit the `sirv` commands in package.json to include the option `--host 0.0.0.0`.
+Sebagai default, Server hanya akan merespon request dari localhos. Untuk mengizinkan koneksi dari komputer lain, Ubahlah perintah `sirv` didalam package.json termasuk pilihan `--host 0.0.0.0`.
 
 
-## Deploying to the web
+## Deploying Web
 
-### With [now](https://zeit.co/now)
+### Dengan [now](https://zeit.co/now)
 
-Install `now` if you haven't already:
+Install `now` jika belum terinstall, masukan perintah berikut :
 
 ```bash
 npm install -g now
 ```
 
-Then, from within your project folder:
+Lalu, dari folder proyek anda, masukan perintah berikut :
 
 ```bash
 cd public
 now
 ```
 
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
+Sebagai salah satu alternatif, gunakan [Now desktop client](https://zeit.co/download) dan sederhana drag folder proyek unzipped ke taskbar icon.
 
-### With [surge](https://surge.sh/)
+### Dengan [surge](https://surge.sh/)
 
-Install `surge` if you haven't already:
+Install `surge` jika belum terinstall, masukan perintah berikut :
 
 ```bash
 npm install -g surge
 ```
 
-Then, from within your project folder:
+Lalu, dari folder proyek anda, masukan perintah berikut :
 
 ```bash
 npm run build
 surge public
 ```
+*Jika anda mencari sebuah template komponen yang sudah ada? pergi kesini --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
