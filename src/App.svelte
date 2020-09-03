@@ -5,6 +5,8 @@
 		firstName: 'Ris',
 		lastName: 'yandi'
 	}
+
+	import Footer from './Footer.svelte'
 </script>
 
 <!-- print svelte -->
@@ -16,5 +18,6 @@
 <!-- debug svelte -->
 <input bind:value={user.firstName} type="text">
 <input bind:value={user.lastName} type="text">
-{@debug user}
+<!-- {@debug user} -->
 <h1>Hello {user.firstName + user.lastName}</h1>
+<Footer/>
